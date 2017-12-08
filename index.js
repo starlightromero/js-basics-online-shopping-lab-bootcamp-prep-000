@@ -35,7 +35,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  if (obj.hasOwnProperty(item) = false) {
+  if (cart.hasOwnProperty(item) = false) {
     console.log('That item is not in your cart.')
     return cart
   }
